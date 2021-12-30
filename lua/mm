@@ -1,2 +1,0 @@
-map('i', '<tab>', [[<cmd>lua require('completion').smart_tab()<CR>]], {noremap=true, silent=true})
-map('i', '<s-tab>', [[<cmd>lua require('completion').smart_s_tab()<CR>]], {noremap=true, silent=true})
